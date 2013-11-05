@@ -145,7 +145,7 @@ class xbmcnfo(Agent.TV_Shows):
 			Log('Found poster image at ' + posterFilename)
 
 		bannerNames = []
-		# bannerNames.append (path + "/banner.jpg")
+		bannerNames.append (path + "/banner.jpg")
 		bannerNames.append (path + "/folder-banner.jpg")
 
 		# check possible banner file locations
